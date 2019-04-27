@@ -36,7 +36,11 @@ class AlertTest(unittest.TestCase):
         """
         moj_alert = self.driver.find_element_by_id('zwykly')
         moj_alert.click()
-        time.sleep(4)
+        time.sleep(2)
+        simple_alert = self.driver.switch_to.alert
+        #simple_alert = self.driver.switch_to_alert() - obecnie przestarzałe
+        simple_alert.accept()
+        time.sleep(2)
 
     def test_prompt(self):
         """
