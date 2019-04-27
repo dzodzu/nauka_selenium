@@ -5,6 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 valid_name = "John"
@@ -95,9 +96,19 @@ class WizzairRegistration(unittest.TestCase):
         plec.click()
 
         #6. Wpisz kod kraju
-        kod_kraju = driver.find_element_by_name('phone-number-country-code')
-
+        kod_kraju = driver.find_element_by_class_name('phone-number__calling-code-selector__empty__placeholder')
+        kod_kraju.click()
+        kod_kraju_input = driver.find_element_by_name('phone-number-country-code')
+        kod_kraju_input.send_keys('+48')
+        kod_kraju_input.send_keys(Keys.RETURN)
         sleep(2)
+        """
+        country_code = driver.find_element_by_css_selector('div[data-test="booking-register-country-code"]')
+        country_code.click()
+        country_code_internal = driver.find_element_by_name("phone-number-country-code")
+        country_code_internal.send_keys("+48")
+        country_code_internal.send_keys(Keys.RETURN)
+        """
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
