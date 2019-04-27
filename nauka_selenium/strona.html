@@ -1,0 +1,34 @@
+<html>
+<meta chatset="utf-8">
+
+<p>Witam na stronie w języku polskim</p>
+<img src="logo.png" height="100">
+
+<br><br>
+
+<button id="alertbutton" onclick="funkcjaAlert()"> Wywołaj alert </button>
+<script>
+  function funkcjaAlert() {
+    alert("Oto prosty alert");
+  }
+</script>
+
+<br><br>
+
+<p>Naciśnij przycisk, by wywołać prompt </p>
+
+<button id="promptbutton" onclick="funkcjaPrompt()"> Wywołaj prompt </button>
+<p id="name"></p>
+
+<script>
+  function funkcjaPrompt() {
+    var person = prompt("Podaj imię", "Renee Madison");
+    if (person != null){
+      document.getElementById("name").innerHTML = "Cześć " + person + "!";
+    }
+    alert("Oto prosty alert");
+  }
+</script>
+
+
+</html>
