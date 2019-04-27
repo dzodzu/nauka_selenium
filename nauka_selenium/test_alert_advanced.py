@@ -10,7 +10,7 @@ class AlertHandler(unittest.TestCase):
     # Instrukcje, które zostaną automatycznie wykonane przed każdym testem
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.get("file://" + os.getcwd()+"/alert.html")
+        self.driver.get("file://" + os.getcwd()+"/strona2.html")
 
     # Metody rozpoczynające się od słowa "test" - czyli moje testy
     def test_simple_alert(self):
