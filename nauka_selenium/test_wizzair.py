@@ -52,7 +52,7 @@ class WizzairRegistration(unittest.TestCase):
         1. Użytkownik niezalogowany
         2. Przeglądarka otwarta na stronie https://wizzair.com/pl-pl#/
         """
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome() #Chrome, Firefox
         self.driver.maximize_window()
         self.driver.get("https://wizzair.com/pl-pl#/")
 
@@ -101,7 +101,7 @@ class WizzairRegistration(unittest.TestCase):
         kod_kraju_input = driver.find_element_by_name('phone-number-country-code')
         kod_kraju_input.send_keys('+48')
         kod_kraju_input.send_keys(Keys.RETURN)
-        sleep(2)
+
         """
         country_code = driver.find_element_by_css_selector('div[data-test="booking-register-country-code"]')
         country_code.click()
@@ -109,6 +109,12 @@ class WizzairRegistration(unittest.TestCase):
         country_code_internal.send_keys("+48")
         country_code_internal.send_keys(Keys.RETURN)
         """
+
+        #7. Wpisz numer telefonu
+        tel = driver.find_element_by_xpath('//input[@data-test="booking-register-phone"]')
+        tel.click()
+        tel.send_keys('123456789')
+        sleep(2)
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

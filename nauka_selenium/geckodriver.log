@@ -1,0 +1,23 @@
+1556435602424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Xzr1tbEya7rc"
+
+(firefox:5631): Gtk-WARNING **: 09:13:23.388: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5631): Gtk-WARNING **: 09:13:23.389: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1556435605997	Marionette	INFO	Listening on port 35527
+1556435606035	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556435606101	Marionette	DEBUG	[2147483649] Frame script loaded
+1556435606109	Marionette	DEBUG	[2147483649] Frame script registered
+1556435606448	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1556435607004	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1556435609252	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://wizzair.com/pl-pl#/
+1556435630437	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1556435630479	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1556435630802	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1556435631682	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://wizzair.com/pl-pl#/
+1556435632235	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556435632714	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556435633991	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556435634344	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556435635161	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556435637191	Marionette	INFO	Stopped listening on port 35527
+[Parent 5631, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
