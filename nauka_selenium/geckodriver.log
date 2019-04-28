@@ -21,3 +21,197 @@
 1556435635161	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
 1556435637191	Marionette	INFO	Stopped listening on port 35527
 [Parent 5631, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1556436484381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.08PMCrJCXsDe"
+
+(firefox:3140): Gtk-WARNING **: 09:28:05.298: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3140): Gtk-WARNING **: 09:28:05.299: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1556436487020	Marionette	INFO	Listening on port 38883
+1556436487078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556436487175	Marionette	DEBUG	[2147483649] Frame script loaded
+1556436487183	Marionette	DEBUG	[2147483649] Frame script registered
+1556436487424	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1556436487711	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1556436489032	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://wizzair.com/pl-pl#/
+1556436511258	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1556436511334	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1556436511674	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1556436511946	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://wizzair.com/pl-pl#/
+1556436512295	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556436512744	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556436513916	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556436514206	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556436514684	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556436516725	Marionette	INFO	Stopped listening on port 38883
+1556439505003	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2120PtPoAAYY"
+
+(firefox:6141): Gtk-WARNING **: 10:18:25.587: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6141): Gtk-WARNING **: 10:18:25.588: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1556439506903	Marionette	INFO	Listening on port 41037
+1556439506978	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556439507067	Marionette	DEBUG	[2147483649] Frame script loaded
+1556439507089	Marionette	DEBUG	[2147483649] Frame script registered
+1556439507353	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1556439508020	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1556439511060	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://wizzair.com/pl-pl#/
+1556439520990	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1556439521172	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1556439521616	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1556439521928	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://wizzair.com/pl-pl#/
+1556439522620	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556439523043	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556439524516	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556439524964	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556439526093	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556439526698	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+
+(/usr/lib/firefox/firefox:6184): dconf-WARNING **: 10:18:47.536: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1556439528200	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556439528494	Marionette	INFO	Stopped listening on port 41037
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1556440008025	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.udWD4uWu86h8"
+
+(firefox:6360): Gtk-WARNING **: 10:26:49.105: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6360): Gtk-WARNING **: 10:26:49.107: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1556440010470	Marionette	INFO	Listening on port 43797
+1556440010522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556440010606	Marionette	DEBUG	[2147483649] Frame script loaded
+1556440010613	Marionette	DEBUG	[2147483649] Frame script registered
+1556440010856	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1556440011202	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1556440012274	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://wizzair.com/pl-pl#/
+1556440035476	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1556440035615	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1556440035952	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1556440036426	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://wizzair.com/pl-pl#/
+1556440036797	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440037111	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440038246	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440038622	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440039418	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440040001	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440040561	Marionette	INFO	Stopped listening on port 43797
+
+(/usr/lib/firefox/firefox:6404): dconf-WARNING **: 10:27:20.586: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 6360, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1556440168172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DrKqP8XvJOPo"
+
+(firefox:6574): Gtk-WARNING **: 10:29:28.752: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6574): Gtk-WARNING **: 10:29:28.753: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1556440170086	Marionette	INFO	Listening on port 46799
+1556440170208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556440170286	Marionette	DEBUG	[2147483649] Frame script loaded
+1556440170293	Marionette	DEBUG	[2147483649] Frame script registered
+1556440170430	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1556440170727	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1556440171821	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://wizzair.com/pl-pl#/
+1556440194000	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1556440194201	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1556440194542	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1556440195164	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://wizzair.com/pl-pl#/
+1556440195522	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440196050	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440197162	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440197610	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440198430	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440198953	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440199587	Marionette	INFO	Stopped listening on port 46799
+
+(/usr/lib/firefox/firefox:6617): dconf-WARNING **: 10:29:59.655: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1556440237371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sZcbsJU3eoNc"
+
+(firefox:6746): Gtk-WARNING **: 10:30:38.327: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6746): Gtk-WARNING **: 10:30:38.328: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1556440239690	Marionette	INFO	Listening on port 35929
+1556440239758	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556440239879	Marionette	DEBUG	[2147483649] Frame script loaded
+1556440239900	Marionette	DEBUG	[2147483649] Frame script registered
+1556440240166	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1556440240463	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1556440241675	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://wizzair.com/pl-pl#/
+1556440261406	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1556440261481	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1556440261947	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1556440262308	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://wizzair.com/pl-pl#/
+1556440262842	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440263416	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440264864	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440265270	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440266182	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440266960	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+
+(/usr/lib/firefox/firefox:6789): dconf-WARNING **: 10:31:08.093: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1556440268914	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1556440269140	Marionette	INFO	Stopped listening on port 35929
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

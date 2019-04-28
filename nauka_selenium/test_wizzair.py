@@ -10,6 +10,9 @@ from time import sleep
 
 valid_name = "John"
 valid_surname = "Doe"
+valid_tel = "123456789"
+invalid_mail = "johndoe.pl"
+valid_password = "tester123"
 
 """
 Scenariusz:
@@ -52,7 +55,9 @@ class WizzairRegistration(unittest.TestCase):
         1. Użytkownik niezalogowany
         2. Przeglądarka otwarta na stronie https://wizzair.com/pl-pl#/
         """
-        self.driver = webdriver.Chrome() #Chrome, Firefox
+        #profile = webdriver.FirefoxProfile()
+        #profile.set_preference("geo.enabled", False)
+        self.driver = webdriver.Chrome() #Chrome(), Firefox(firefox_profile = profile)
         self.driver.maximize_window()
         self.driver.get("https://wizzair.com/pl-pl#/")
 
@@ -113,8 +118,45 @@ class WizzairRegistration(unittest.TestCase):
         #7. Wpisz numer telefonu
         tel = driver.find_element_by_xpath('//input[@data-test="booking-register-phone"]')
         tel.click()
-        tel.send_keys('123456789')
-        sleep(2)
+        tel.send_keys(valid_tel)
+
+        #8. Wpisz niepoprawny adres e-mail ("brak '@')
+        mail = driver.find_element_by_xpath('//input[@data-test="booking-register-email"]')
+        mail.click()
+        mail.send_keys(invalid_mail)
+
+        # 9. Wpisz hasło
+        passwd_input = driver.find_element_by_xpath('//input[@data-test="booking-register-password"]')
+        passwd_input.send_keys(valid_password)
+
+        #Przewin do przycisku ZAREJESTRUJ
+        zarejestruj_btn =  driver.find_element_by_xpath('//button[@data-test="booking-register-submit"]')
+        zarejestruj_btn.location_once_scrolled_into_view
+
+        #10. Wybierz kraj
+        country_field = driver.find_element_by_name('country-select')
+        country_field.click()
+        country_to_choose = driver.find_element_by_xpath('//div[@class="register-form__country-container__locations"]/label[164]')
+        country_to_choose.location_once_scrolled_into_view
+        country_to_choose.click()
+
+        #11. Zaznacz 'Akceptuję Informację o polityce prywatności'
+        privacy_policy_checkbox = driver.find_element_by_xpath('//label[@for="registration-privacy-policy-checkbox"][@class="rf-checkbox__label"]')
+        privacy_policy_checkbox.click()
+
+        #12. Kliknij ZAREJESTRUJ SIĘ
+        zarejestruj_btn.click()
+
+        #### Oczekiwany rezultat: ####
+        # 2. Użytkownik dostaje informację "Nieprawidłowy adres e-mail"
+        error_notices = driver.find_elements_by_xpath('//span[@class="rf-input__error__message"]/span')
+        visible_error_notices = []
+        for error in error_notices:
+            if error.is_displayed():
+                visible_error_notices.append(error)
+        self.assertEqual(len(visible_error_notices), 1)
+        self.assertEqual(visible_error_notices[0].text, u"Nieprawidłowy adres e-mail")
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
